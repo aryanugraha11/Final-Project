@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pelanggan</title>
+	<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css' />
+<link href="css.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<div id="menu-wrapper">
+		<div id="menu">
+			<ul>
+				<li><a href="index.php">Homepage</a></li>
+				<li><a href="pelanggan.html">Pelanggan</a></li>
+				<li><a href="data.php">Data Pelanggan</a></li>
+			</ul>
+		</div>
+		<!-- end #menu -->
+	</div>
+
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header">
+			<div id="logo">
+				<h2><center>Final Project Pemrograman Web</center></h2>
+				<p>Design by Arya Nugraha</p>
+			</div>
+		</div>
+	</div>
+	<!-- end #header -->
+    <div align="center">menghitung diskon berdasarkan status (pelanggan atau bukan pelanggan).<br>
+		Keterangan :<br>
+		jika statusnya pelanggan akan mendapat diskon 10%.<br>
+		jika statusnya bukan pelanggan maka tidak mendapat diskon.<br><br><br>
+	<div id="page">
+						<div align="center">
+<form id="form1" name="form1" method="post" action="proses.php">
+<p>&nbsp;</p>
+<table width="383" height="201" border="1">
+<tr>
+<td colspan="2" bgcolor="#99FF00">
+<div align="center" class="black">
+<strong>PENJUALAN</strong>
+</div>
+</td>
+</tr>
+<tr>
+<td width="124" bgcolor="#99FF00">Nama Barang </td>
+<td width="243" bgcolor="#99FF00">&nbsp;
+<input name="nama_barang" type="text" /></td>
+</tr>
+<tr>
+<td bgcolor="#99FF00">Harga</td>
+<td bgcolor="#99FF00">&nbsp;
+<input name="harga" type="text" /></td>
+</tr>
+<tr>
+<td bgcolor="#99FF00">Quantity</td>
+<td bgcolor="#99FF00">&nbsp;
+<input name="jumlah" type="text" /></td>
+</tr>
+<tr>
+<td bgcolor="#99FF00">Status</td>
+<td bgcolor="#99FF00"><p>
+<label>
+<input type="radio" name="status" value="Pelanggan" id="status_0" checked="checked" />
+ Pelanggan</label>
+<label>
+<input type="radio" name="status" value="Bukan pelanggan" id="status_1" />
+ Bukan pelanggan</label>
+<br />
+</p></td>
+</tr>
+<tr>
+<td bgcolor="#99FF00">Kota</td>
+<td bgcolor="#99FF00"><select name="kota">
+<option>Jakarta</option>
+<option>Bandung</option>
+<option>Surabaya</option>
+</select>&nbsp;</td>
+</tr>
+<tr>
+<td height="28" bgcolor="#99FF00">&nbsp;</td>
+<td bgcolor="#99FF00">
+<input name="" type="submit" value="Hitung" />&nbsp;
+<input name="" type="reset" value="Hapus" /></td>
+</tr>
+</table>
+</form>
+<br><br>
+</div>
+</div>
+                          
+ 							 				
+<div id="footer">
+	<p>&copy; Final Project Pemrograman Web<br>
+    &copy; Arya Nugraha ( 1800018056 )</p>
+</div>
+<!-- end #footer -->
+ 
+</body>
+</html>

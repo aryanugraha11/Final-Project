@@ -1,0 +1,27 @@
+Nama Barang  : Kursi
+Harga        : Rp 28000
+Quantity     : 4
+Status       : Pelanggan
+Subtotal     : Rp 112000
+Diskon       : Rp 11200
+Ongkos Kirim : Rp 30000(Surabaya)
+Total        : Rp 130800
+******************************
+Nama Barang  : Lemari
+Harga        : Rp 90000
+Quantity     : 3
+Status       : Bukan pelanggan
+Subtotal     : Rp 270000
+Diskon       : Rp 0
+Ongkos Kirim : Rp 10000(Bandung)
+Total        : Rp 280000
+******************************
+Nama Barang  : meja
+Harga        : Rp 50000
+Quantity     : 4
+Status       : Pelanggan
+Subtotal     : Rp 200000
+Diskon       : Rp 20000
+Ongkos Kirim : Rp 20000(Jakarta)
+Total        : Rp 200000
+******************************
